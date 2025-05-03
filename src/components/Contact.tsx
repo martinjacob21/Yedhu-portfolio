@@ -62,6 +62,7 @@ export default function Contact() {
                 whileHover={{ x: 10, boxShadow: "0 10px 25px rgba(79, 70, 229, 0.1)" }}
                 transition={{ type: "spring", stiffness: 400 }}
               >
+                {/* Email */}
                 <motion.div 
                   className="bg-primary/10 p-3 rounded-lg mr-4 text-primary"
                   whileHover={{ scale: 1.1, rotate: 5 }}
@@ -72,11 +73,11 @@ export default function Contact() {
                 <div className="min-w-0 flex-1">
                   <h4 className="font-medium text-gray-900">Email</h4>
                   <a href="mailto:yedhuprasadofficial77@gmail.com" className="text-gray-600 hover:text-primary hover:underline transition-colors break-all">
-                    yedhuprasadofficial77@gmail.com
+                  yedhuprasadofficial27@gmail.com 
                   </a>
                 </div>
               </motion.div>
-              
+              {/* Phone number */}
               <motion.div 
                 className="flex items-start bg-white p-4 rounded-xl shadow-sm border border-gray-100" 
                 whileHover={{ x: 10, boxShadow: "0 10px 25px rgba(79, 70, 229, 0.1)" }}
@@ -96,7 +97,7 @@ export default function Contact() {
                   </a>
                 </div>
               </motion.div>
-              
+              {/* LinkedIn */}
               <motion.div 
                 className="flex items-start bg-white p-4 rounded-xl shadow-sm border border-gray-100" 
                 whileHover={{ x: 10, boxShadow: "0 10px 25px rgba(79, 70, 229, 0.1)" }}
@@ -116,7 +117,7 @@ export default function Contact() {
                   </a>
                 </div>
               </motion.div>
-              
+              {/* Location */}
               <motion.div 
                 className="flex items-start bg-white p-4 rounded-xl shadow-sm border border-gray-100" 
                 whileHover={{ x: 10, boxShadow: "0 10px 25px rgba(79, 70, 229, 0.1)" }}
